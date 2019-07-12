@@ -1,0 +1,186 @@
+[
+    {
+        "name": "人族",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060943540315560914036211895.png",
+        "skills": [
+            {
+                "count": 2,
+                "desc": "所有友方人类攻击敌人有20%概率使敌人沉默4秒"
+            },
+            {
+                "count": 4,
+                "desc": "所有友方人类攻击敌人有25%概率使敌人沉默4秒"
+            },
+            {
+                "count": 6,
+                "desc": "所有友方人类攻击敌人有30%概率使敌人沉默4秒"
+            }
+        ]
+    },
+    {
+        "name": "光羽族",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060943522415560912241650186.png",
+        "skills": [
+            {
+                "count": 3,
+                "desc": "所有友方光羽族有20%几率闪避敌人的攻击"
+            },
+            {
+                "count": 6,
+                "desc": "所有友方光羽族有25%几率闪避敌人的攻击"
+            }
+        ]
+    },
+    {
+        "name": "恶魔",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060943675615560927562018669.png",
+        "skills": [
+            {
+                "count": 1,
+                "desc": "场上只有1种恶魔时其攻击时对敌人额外造成50%纯粹伤害"
+            }
+        ]
+    },
+    {
+        "name": "哥布林",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060943749215560934920622430.png",
+        "skills": [
+            {
+                "count": 3,
+                "desc": "使一个随机友军的护甲+12,生命恢复+10"
+            },
+            {
+                "count": 6,
+                "desc": "使所有友军的护甲+12,生命恢复+10"
+            }
+        ]
+    },
+    {
+        "name": "野兽",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060943720015560932009056225.png",
+        "skills": [
+            {
+                "count": 2,
+                "desc": "所有友军攻击力+10%，可以被召唤物继承"
+            },
+            {
+                "count": 4,
+                "desc": "所有友军攻击力+15%，可以被召唤物继承"
+            },
+            {
+                "count": 6,
+                "desc": "所有友军攻击力+20%，可以被召唤物继承"
+            }
+        ]
+    },
+    {
+        "name": "洞洞族",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060943565915560916592714875.png",
+        "skills": [
+            {
+                "count": 2,
+                "desc": "所有友方洞洞族最大生命值+250"
+            },
+            {
+                "count": 4,
+                "desc": "所有友方洞洞族最大生命值+350"
+            }
+        ]
+    },
+    {
+        "name": "海族",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060943654715560925479928721.png",
+        "skills": [
+            {
+                "count": 2,
+                "desc": "使所有友军的魔法抗性+30"
+            },
+            {
+                "count": 4,
+                "desc": "使所有友军的魔法抗性+30"
+            }
+        ]
+    },
+    {
+        "name": "不眠",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060943481615560908164124230.png",
+        "skills": [
+            {
+                "count": 2,
+                "desc": "使所有敌军的护甲-4"
+            },
+            {
+                "count": 4,
+                "desc": "使所有敌军的护甲-6"
+            }
+        ]
+    },
+    {
+        "name": "冰川族",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060943294015560889403927863.png",
+        "skills": [
+            {
+                "count": 2,
+                "desc": "所有友方冰川族的攻击速度+35%"
+            },
+            {
+                "count": 4,
+                "desc": "所有友军的攻击速度+35%"
+            }
+        ]
+    },
+    {
+        "name": "神族",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/061505448415617104846670794.png",
+        "skills": [
+            {
+                "count": 1,
+                "desc": "在未触发除神族以外的任何其他种族效果下，所有友方棋子技能冷却时间减半"
+            }
+        ]
+    },
+    {
+        "name": "龙族",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060943821015560942108719032.png",
+        "skills": [
+            {
+                "count": 3,
+                "desc": "所有友方龙的初始魔法值为100"
+            }
+        ]
+    },
+    {
+        "name": "基拉",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060943783615560938361742905.png",
+        "skills": [
+            {
+                "count": 1,
+                "desc": "所有友军最大生命值+5%"
+            }
+        ]
+    },
+    {
+        "name": "灵族",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060943733315560933333174352.png",
+        "skills": [
+            {
+                "count": 2,
+                "desc": "所有友方灵族被近战攻击时有30%概率使攻击者石化4秒"
+            },
+            {
+                "count": 4,
+                "desc": "所有友军被近战攻击时有30%概率使攻击者石化4秒"
+            }
+        ]
+    },
+    {
+        "name": "矮人族",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060943642615560924269484919.png",
+        "skills": [
+            {
+                "count": 1,
+                "desc": "攻击距离+300"
+            }
+        ]
+    }
+]

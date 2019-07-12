@@ -1,0 +1,150 @@
+[
+    {
+        "name": "工匠",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060988623715565422378255234.png",
+        "skills": [
+            {
+                "count": 2,
+                "desc": "所有友方工匠的生命恢复速度+15"
+            },
+            {
+                "count": 4,
+                "desc": "所有友方工匠的生命恢复速度+25"
+            }
+        ]
+    },
+    {
+        "name": "猎魔者",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060988650815565425088864256.png",
+        "skills": [
+            {
+                "count": 1,
+                "desc": "此棋子视为敌方的一个恶魔"
+            },
+            {
+                "count": 2,
+                "desc": "所有友方恶魔视为同一种类"
+            }
+        ]
+    },
+    {
+        "name": "德鲁伊",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060988662415565426247007134.png",
+        "skills": [
+            {
+                "count": 2,
+                "desc": "场上有2个相同1星德鲁伊就可以升级为2星"
+            },
+            {
+                "count": 4,
+                "desc": "场上有2个相同2星德鲁伊就可以升级为3星"
+            }
+        ]
+    },
+    {
+        "name": "萨满",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060988666415565426649853396.png",
+        "skills": [
+            {
+                "count": 2,
+                "desc": "战斗开始时将1个随机的地方棋子变为青蛙，持续6秒"
+            }
+        ]
+    },
+    {
+        "name": "法师",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060988670815565427086164480.png",
+        "skills": [
+            {
+                "count": 3,
+                "desc": "使所有敌军的魔法抗性-35%"
+            },
+            {
+                "count": 6,
+                "desc": "使所有敌军的魔法抗性-45%"
+            }
+        ]
+    },
+    {
+        "name": "术士",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060988673515565427359378352.png",
+        "skills": [
+            {
+                "count": 3,
+                "desc": "使所有友军的攻击和技能附带20%吸血"
+            },
+            {
+                "count": 6,
+                "desc": "使所有友军的攻击和技能附带25%吸血"
+            }
+        ]
+    },
+    {
+        "name": "潜行者",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060988676715565427677941759.png",
+        "skills": [
+            {
+                "count": 3,
+                "desc": "所有友方潜行者的攻击有10%概率造成3倍伤害"
+            },
+            {
+                "count": 6,
+                "desc": "所有友方潜行者的攻击有15%概率造成4倍伤害"
+            },
+            {
+                "count": 9,
+                "desc": "所有友方潜行者的攻击有20%概率造成5倍伤害"
+            }
+        ]
+    },
+    {
+        "name": "骑士",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060988680415565428049628369.png",
+        "skills": [
+            {
+                "count": 2,
+                "desc": "每3秒判定一次所有友方骑士有25%的时间被减伤护盾庇护3秒"
+            },
+            {
+                "count": 4,
+                "desc": "每3秒判定一次所有友方骑士有30%的时间被减伤护盾庇护3秒"
+            },
+            {
+                "count": 6,
+                "desc": "每3秒判定一次所有友方骑士有30%的时间被减伤护盾庇护3秒"
+            }
+        ]
+    },
+    {
+        "name": "猎人",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060988683615565428361030265.png",
+        "skills": [
+            {
+                "count": 3,
+                "desc": "所有友方猎人+35基础攻击力，且攻击有+30%概率必中"
+            },
+            {
+                "count": 6,
+                "desc": "所有友方猎人+45基础攻击力，且攻击有+40%概率必中"
+            }
+        ]
+    },
+    {
+        "name": "战士",
+        "icon": "https://static.ilongyuan.cn/official_website/dev/060988686115565428616810988.png",
+        "skills": [
+            {
+                "count": 3,
+                "desc": "所有友方战士护甲+5"
+            },
+            {
+                "count": 6,
+                "desc": "所有友方战士护甲+7"
+            },
+            {
+                "count": 9,
+                "desc": "所有友方战士护甲+9"
+            }
+        ]
+    }
+]
