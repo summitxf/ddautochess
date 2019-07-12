@@ -1,7 +1,7 @@
 <template>
   <v-container fluid grid-list-md>
     <v-layout row wrap>
-      <v-flex xs12 sm6 md4 v-for="(item, index) in zhongzus" v-show="showZhongzuFetters(item.name, 1)">
+      <v-flex xs12 sm6 md4 v-for="(item, index) in zhongzus" :key="`zhongzu-${index}`" v-show="showZhongzuFetters(item.name, 1)">
         <v-card>
           <v-card-actions>
             <v-list-tile>
@@ -20,7 +20,7 @@
         </v-card>
       </v-flex>
 
-      <v-flex xs12 sm6 md4 v-for="(item, index) in zhiyes" v-show="showZhiyeFetters(item.name, 1)">
+      <v-flex xs12 sm6 md4 v-for="(item, index) in zhiyes" :key="`zhiye-${index}`" v-show="showZhiyeFetters(item.name, 1)">
         <v-card>
           <v-card-actions>
             <v-list-tile>
@@ -71,8 +71,34 @@
         }
         return 0
       },
+      hasEmoZhongzuFetter() {
+        let zhongzuname = '恶魔'
+        if (this.get_zhongzu_fetters[zhongzuname] && this.get_zhongzu_fetters[zhongzuname].count === 1) {
+          return true
+        }
+        return false
+      },
+      hasOtherZhongzuFetter() {
+        for (let zhongzu of zhongzus) {
+          if (zhongzu.name !== '神族' && zhongzu.name !== '恶魔') {
+            if (this.get_zhongzu_fetters[zhongzu.name] && this.get_zhongzu_fetters[zhongzu.name].count >= zhongzu.skills[0].count) {
+              return true
+              break
+            }
+          }
+        }
+        return false
+      },
       showZhongzuFetters(name, skillcount) {
-        if (this.get_zhongzu_fetters[name] && this.get_zhongzu_fetters[name].count >= skillcount) {
+        if (name === '恶魔') {
+          if (this.get_zhongzu_fetters[name] && this.get_zhongzu_fetters[name].count === 1) {
+            return true
+          }
+        } else if (name === '神族') {
+          if (this.get_zhongzu_fetters[name] && this.get_zhongzu_fetters[name].count >= skillcount && !this.hasOtherZhongzuFetter() && !this.hasEmoZhongzuFetter()) {
+            return true
+          }
+        } else if (this.get_zhongzu_fetters[name] && this.get_zhongzu_fetters[name].count >= skillcount) {
           return true
         }
         return false
